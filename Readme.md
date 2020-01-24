@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Sasha Fandeeva](https://up.htmlacademy.ru/htmlcss/27/user/1333211).
-* Наставник: `Неизвестно`.
+* Наставник:[Egor Glebov](https://htmlacademy.ru/profile/beast).
 
 ---
 
