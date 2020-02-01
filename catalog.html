@@ -2,20 +2,20 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Проект Нердс</title>
   </head>
   <body>
   	<header class="main-header">
       <nav class="main-navigation">
         <a class="main-header-logo" href="index.html">
-          <img src="img/nerds-logo.png" width="160" height="65" alt="Логотип проекта «Нёрдс»">
+          <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип проекта «Нёрдс»">
         </a>
         <ul class="site-navigation">
           <li><a href="studio.html">Студия</a></li>
           <li><a href="clients.html">Клиенты</a></li>
           <li class="site-navigation-current"><a>Магазин</a></li>
           <li><a href="contacts.html">Контакты</a></li>
-          <li><a href="shopping-cart.html">Корзина</a></li>
+          <li><a href="shopping-cart.html"><img src="img/cart-icon.svg" width="15" height="15" alt="Иконка корзины">Корзина</a></li>
         </ul>
       </nav>
     </header>
@@ -27,10 +27,12 @@
       </section>
       <section class="catalog">
         <h2 class="visually-hidden">Список проектов</h2>
+        <h2 class="visually-hidden">Сортировка</h2>
+        <!-- Здесь будет форма -->
         <ul class="catalog-list">
           <li class="catalog-item">
-            <img src="img/img-sedona-jpg.png" width="360" height="576" alt="Информационный сайт для туристов «Sedona»">
-              Информационный сайт для туристов «Sedona»
+            <img src="img/sedona.jpg" width="360" height="576" alt="Информационный сайт для туристов «Sedona»">
+            Информационный сайт для туристов «Sedona»
             <div>
               <h3>Sedona</h3>
               <p>Информационный сайт для туристов</p>
@@ -38,44 +40,34 @@
             </div>
           </li>
           <li class="catalog-item">
-            <p>
-              <a href="catalog-item.html">
-                <img src="img/img-pink-jpg.png" width="360" height="576" alt="Cайт для общения и улучшения настроения «Pink»">
-                Cайт для общения и улучшения настроения «Pink»
-              </a>
-            </p>
+            <a href="catalog-item.html">
+              <img src="img/pink.jpg" width="360" height="576" alt="Cайт для общения и улучшения настроения «Pink»">
+              Cайт для общения и улучшения настроения «Pink»
+            </a>
           </li>
           <li class="catalog-item">
-            <p>
-              <a href="catalog-item.html">
-                <img src="img/img-barbershop-jpg.png" width="360" height="576" alt="Cайт барбершопа «Бородинский»">
-                Cайт барбершопа «Бородинский»
-              </a>
-            </p>
+            <a href="catalog-item.html">
+              <img src="img/barbershop.jpg" width="360" height="576" alt="Cайт барбершопа «Бородинский»">
+              Cайт барбершопа «Бородинский»
+            </a>
           </li>
           <li class="catalog-item">
-            <p>
-              <a href="catalog-item.html">
-                <img src="img/img-mishka-jpg.png" width="360" height="576" alt="Cайт милых штук для дома «Мишка»">
-                Cайт милых штук для дома «Мишка»
-              </a>
-            </p>
+            <a href="catalog-item.html">
+              <img src="img/mishka.jpg" width="360" height="576" alt="Cайт милых штук для дома «Мишка»">
+              Cайт милых штук для дома «Мишка»
+            </a>
           </li>
           <li class="catalog-item">
-            <p>
-              <a href="catalog-item.html">
-                <img src="img/img-aplus-jpg.png" width="360" height="576" alt="Учебный сайт «Аплюс»">
-                Учебный сайт «Аплюс»
-              </a>
-            </p>
+            <a href="catalog-item.html">
+              <img src="img/aplus.jpg" width="360" height="576" alt="Учебный сайт «Аплюс»">
+              Учебный сайт «Аплюс»
+            </a>
           </li>
           <li class="catalog-item">
-            <p>
-              <a href="catalog-item.html">
-                <img src="img/img-kvast-jpg.png" width="360" height="576" alt="Сайт магазина крафтового вкаса «Кваст»">
-                Сайт магазина крафтового вкаса «Кваст»
-              </a>
-            </p>
+            <a href="catalog-item.html">
+              <img src="img/kvast.jpg" width="360" height="576" alt="Сайт магазина крафтового вкаса «Кваст»">
+              Сайт магазина крафтового вкаса «Кваст»
+            </a>
           </li>
         </ul>
         <ul class="pagination-list">
@@ -88,6 +80,8 @@
     </main>
     <footer class="main-footer">
       <section>
+        <img src="img/map.png" width="1440" height="416" alt="Карта">
+        <img src="img/map-marker.png" width="1440" height="416" alt="Маркер на карте">
         <h3>NЁRDS DESIGN STUDIO</h3>
         <p class="footer-contacts">
           191186, Санкт-Петербург,<br>
@@ -100,9 +94,18 @@
       </section>
     <div class="footer-social">
       <ul>
-        <li><a class="social-button" href="#">Вконтакте</a></li>
-        <li><a class="social-button" href="#">Фейсбук</a></li>
-        <li><a class="social-button" href="#">Инстаграм</a></li>
+        <li><a href="social-button">
+            <img src="img/vk-icon.svg" width="79" height="79" alt="Вконтакте">Кнопка Вконтакте
+            </a>
+        </li>
+        <li><a href="social-button">
+            <img src="img/fb-icon.svg" width="79" height="79" alt="Фейсбук">Кнопка Фейсбук
+            </a>
+        </li>
+        <li><a href="social-button">
+            <img src="img/insta-icon.svg" width="79" height="79" alt="Инстаграм">Кнопка Инстаграм
+            </a>
+        </li>
       </ul>
         <p>Давайте дружить, это выгодно!</p>
         <p>Скидка 10% для друзей из социальных сетей.</p>
