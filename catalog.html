@@ -25,22 +25,63 @@
         <h2 class="visually-hidden">Фильтр проектов</h2>
         <img src="img/filter-button.svg" width="20" height="23" alt="Бегунок фильтра">
         <img src="img/filter-button-copy.svg" width="20" height="23" alt="Бегунок фильтра 2">
-        <img src="img/radio-on.svg" width="25" height="25" alt="Выбрана адаптивная сетка">
-        <img src="img/radio-off.svg" width="25" height="25" alt="Фиксированная сетка">
-        <img src="img/radio-off.svg" width="25" height="25" alt="Резиновая сетка">
-        <img src="img/checkbox-on.svg" width="27" height="23" alt="Особенности Слайдер">
-        <img src="img/checkbox-off.svg" width="27" height="23" alt="Особенности блок преимуществ">
-        <img src="img/checkbox-on.svg" width="27" height="23" alt="Особенности Новости">
-        <img src="img/checkbox-off.svg" width="27" height="23" alt="Особенности Галерея">
-        <img src="img/checkbox-off.svg" width="27" height="23" alt="Особенности Корзина">
-        <!-- Здесь будет форма -->
+        <!-- Здесь будет форма в дополнительном задании-->
       </section>
-      <section class="catalog">
+      <section class="filters"
         <h2 class="visually-hidden">Список проектов</h2>
         <h2 class="visually-hidden">Сортировка</h2>
         <img src="img/icon-down-dir.svg" width="11" height="10" alt="Стрелка вниз">
         <img src="img/icon-up-dir.svg" width="11" height="10" alt="Стрелка вверх">
-        <!-- Здесь будет форма -->
+        <!-- Здесь будет форма в дополнительном задании -->
+        <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+        <fieldset>
+            <legend>Сетка:</legend>
+            <ul>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid-type" value="adaptive" id="filter-adaptive" checked>
+                <label for="filter-adaptive">Адаптивная</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid-type" value="fixed" id="filter-fixed">
+                <label for="filter-fixed">Фиксированная</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid-type" value="rubber" id="filter-rubber">
+                <label for="filter-rubber">Резиновая</label>
+              </li>
+            </ul>
+          </fieldset>
+           <fieldset>
+            <legend>Особенности:</legend>
+            <ul>
+              <li class="filter-option">
+               <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" id="slider" checked>
+               <label for="slider">Слайдер</label>
+              </li>
+              <li class="filter-option">
+               <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="block-of-advantage" id="block-of-advantage">
+               <label for="block-of-advantagey">Блок преимуществ</label>
+              </li>
+              <li class="filter-option">
+               <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news" id="news" checked>
+               <label for="news">Новости</label>
+              </li>
+              <li class="filter-option">
+               <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="gallery" id="gallery">
+               <label for="gallery">Галерея</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="cart" id="cart">
+              <label for="cart">Корзина</label>
+              </li>
+            </ul>
+          </fieldset>
+          <button type="submit" class="filter-button button">
+            Показать
+          </button>
+        </form>
+      </section>
+      <section class="catalog"
         <ul class="catalog-list">
           <li class="catalog-item">
             <img src="img/sedona.jpg" width="360" height="576" alt="Информационный сайт для туристов «Sedona»">
@@ -93,18 +134,36 @@
     <footer class="main-footer">
       <section>
         <img src="img/map.png" width="1440" height="416" alt="Карта">
-        <img src="img/map-marker.png" width="1440" height="416" alt="Маркер на карте">
+        <img src="img/map-marker.png" width="231" height="190" alt="Маркер на карте">
         <h3>NЁRDS DESIGN STUDIO</h3>
         <p class="footer-contacts">
           191186, Санкт-Петербург,<br>
           ул. Б. Конюшенная, д. 19/8<br>
           тел. +7 (812) 275-75-75<br>
         </p>
-      <p>
-        <button type="button">Напишите нам</button>
+        <p>
+          <button type="button">Напишите нам</button> <!-- если оставляю эту кнопку не вижу форму, если убираю, то сразу полностью вижу форму на странице. Возможно стоит через ссылку делать? -->
+          <form class="write-us" action="#" method="post">
+          <h2>Напишите нам</h2>
+           <p class="icon-name">Напишите нам
+             <label class="vissually-hidden" for="user-name">Ваше имя:</label>
+             <input class="icon-name" id="user-name" type="text" name="name" placeholder="Имя Фамилия">
+           </p> 
+           <p class="icon-email">
+             <label class="vissually-hidden" for="user-email">Ваш e-mail:</label>
+             <input class="icon-email" id="user-email" type="text" name="e-mail" placeholder="nerds@email.com">
+           </p> 
+           <p class="login-letter-text">
+             <label class="vissually-hidden" for="user-letter">Текс письма:</label>
+             <input class="login-letter-text" type="text" name="letter" id="login-letter-text" placeholder="В свободной форме">
+           <button class="button" type="submit">
+           Отправить
+           </button>
+          </p> 
+        </form>
       </p>
-      </section>
-    <div class="footer-social">
+    </section>
+    <div class="footer-social"> <!-- может div на section поменять -->
       <ul>
         <li><a href="social-button">
             <img src="img/vk-icon.svg" width="79" height="79" alt="Вконтакте">Кнопка Вконтакте
