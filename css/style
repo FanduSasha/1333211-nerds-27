@@ -1,0 +1,330 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", Arial, sasns-serif;
+  font-size: 16px;
+  line-height: 40px;
+  font-weight: 360;
+  color: #283136;
+  text-transformation: lowercase;
+
+  background-color: #ffffff;
+  background-position: top center;
+}
+a {
+  text-decoration:none;
+}
+
+.button {
+  font: inherit;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: lowercase;
+
+  background-color: #000000;
+  border: none;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: #663d15;
+}
+
+.nerds-logo {
+  width: 160px;
+  height: 65px;
+  object-fit: contain;
+}
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 15px;
+  width: 61px;
+  color: #000000;
+
+  background-color: #eeeeee;
+}
+
+.grey-back {
+  width: 1440px;
+  height: 545px;
+  background-color: #eeeeee;
+}
+
+.site-navigation,
+.user-navigation {
+  list-style: none;
+}
+
+.site-navigation,
+.user-navigation {
+  color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+  background-color: #eeeeee;
+}
+
+.advantage-picture-red {
+  width: 300px;
+  height: 146px;
+  object-fit: contain;
+}
+
+.advantage-picture-green {
+  width: 300px;
+  height: 146px;
+  object-fit: contain;
+}
+
+.advantage-picture-yellow {
+  width: 300px;
+  height: 146px;
+  object-fit: contain;
+}
+
+.product-items h2 {
+  width: 135px;
+  height: 23px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.product-items ul{
+  list-style: none;
+}
+
+.web p
+.app p
+.pitch p
+{
+  width: 238px;
+  height: 41px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #283136;
+}
+
+
+.button {
+  width: 160px;
+  height: 50px;
+  background-color: var(--nerds-accent);
+}
+
+.button-yellow {
+  width: 160px;
+  height: 50px;
+  background-color: #efc84a;
+}
+
+.button-green {
+  width: 160px;
+  height: 50px;
+  background-color: #00ca74;
+}
+
+.web a
+.app a
+.pitch a{
+  width: 82px;
+  height: 13px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.desc p{
+  width: 647px;
+  height: 87px;
+  font-family: Roboto;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.desc ul{
+  list-style: none;
+}
+
+.text {
+  width: 614px;
+  height: 40px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #283136;
+}
+
+.subltitle{
+  font-weight: bold;
+  color: #000000;
+  text-transformation: upperrcase;
+  }
+
+.nerds-picture {
+  width: 360px;
+  height: 208px;
+  object-fit: contain;
+}
+
+.more p{
+  width: 328px;
+  height: 15px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.more ul{
+  width: 89px;
+  height: 33px;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: left;
+  color: #283136;
+}
+
+.site-navigation-current{
+  border-bottom-color: #fb565a;
+  width: 74px;
+  height: 2px;
+}
+
+.page-title{
+  width: 722px;
+  height: 43px;
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.filters h2{
+  width: 61px;
+  height: 14px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+fieldset ul{
+  list-style: none;
+  line-height: 20px;
+  text-align: left;
+  color: #283136;
+}
+  
+.filter-option input: hover + label,
+.filter-option input: focus + label {
+  color: #4d4d4d;
+}
+
+
+legend{
+  width: 61px;
+  height: 14px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.
+
+.filter-button button{
+  width: 260px;
+  height: 50px;
+  background-color: #eeeeee;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.social-button {
+  color:#ffffff;
+}
+
+.vk-icon {
+  width: 26px;
+  height: 15px;
+  object-fit: contain;
+}
+
+.fb-icon {
+  width: 12px;
+  height: 22px;
+  object-fit: contain;
+}
+
+.insta-icon {
+  width: 21px;
+  height: 21px;
+  object-fit: contain;
+}
+
+.lead
+{
+  width: 545px;
+  height: 35px;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.social-footer p{
+  width: 343px;
+  height: 16px;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #444444;
+}
+
+
+
+
+
